@@ -1,8 +1,8 @@
 const number = [10, 20, 30, 40, 50];
-const x = [];
-for (let numbers of number) {
-  x.push(numbers);
-}
+const x = [...number];
+// for (let numbers of number) {
+//   x.push(numbers);
+// }
 
 x.push(20);
 console.log("Number", number);
